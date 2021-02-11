@@ -1,21 +1,11 @@
-# Template for FrontLoops [Elements] challenge
+# Suggest
 
-Install all dependencies
-```bash
-npm i
-```
+Write a component with a suggesting text input.
+Whenever you enter anything in the text input - request to server should be sent.
+Returned data should be filtered to display only name starting with entered letters
+and displayed in the box under the input.
 
-For start watching all files use:
-```bash
-npm run start
-```
+Clicking the suggested item should close the box and change input value to item name.
 
-then open in browser
-```bash
-http://localhost:1234/
-```
-
-For build all files use:
-```bash
-npm run build
-```
+API url for the task is: <https://pokeapi.co/api/v2/pokemon/>
+You can use any other API if you want.
